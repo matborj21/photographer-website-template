@@ -1,0 +1,11 @@
+@import "modules/config";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: $secondary-color;
+}
