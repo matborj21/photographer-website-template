@@ -97,7 +97,7 @@ section {
     background-size: cover;
     z-index: -1;
     background-color: #555;
-    opacity: 0.7; }
+    opacity: 0.9; }
   .showcase h1 {
     font: bold 10rem "Open Sans", sans-serif;
     margin-bottom: 15px;
@@ -140,7 +140,6 @@ section {
     flex-basis: 20%; }
     .insta-pic .insta-grid li.small:hover {
       opacity: 0.75;
-      filter: grayscale(100%);
       background-color: #3498db; }
 
 .insta-pic .inst-pic-container {
@@ -149,6 +148,32 @@ section {
   height: 80vh;
   background-color: #555;
   z-index: -1; }
+
+footer {
+  display: flex;
+  flex-flow: row;
+  font-weight: bold;
+  text-align: center; }
+  footer a:hover {
+    color: #e74c3c; }
+  footer * {
+    flex: 1 100%; }
+  footer .footer-left {
+    color: #fff;
+    background-color: #e74c3c; }
+    footer .footer-left h2 {
+      padding: 20px; }
+    footer .footer-left P {
+      padding-bottom: 5px;
+      font-size: 1rem; }
+      footer .footer-left P i {
+        padding-right: 10px; }
+  footer .footer-right {
+    background-color: #2c3e50; }
+    footer .footer-right .icon {
+      color: #fff;
+      margin: 30px auto;
+      padding: 30px; }
 
 @keyframes slidein {
   100% {
